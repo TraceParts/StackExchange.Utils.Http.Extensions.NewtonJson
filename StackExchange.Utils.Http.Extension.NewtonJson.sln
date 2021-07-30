@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackExchange.Utils.Http.Extensions.NewtonJson", "src\StackExchange.Utils.Http.Extensions.NewtonJson\StackExchange.Utils.Http.Extensions.NewtonJson.csproj", "{6F6785D9-4E2E-4FC1-9911-4416A38C934A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D62EB7DF-1024-4045-B5E7-74061A0ACBE8}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6785D9-4E2E-4FC1-9911-4416A38C934A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6785D9-4E2E-4FC1-9911-4416A38C934A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6785D9-4E2E-4FC1-9911-4416A38C934A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6785D9-4E2E-4FC1-9911-4416A38C934A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58B3C27B-1EE7-4172-B671-5C5A384C078F}
+	EndGlobalSection
+EndGlobal

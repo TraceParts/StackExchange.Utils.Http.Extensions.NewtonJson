@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.2-alpha</Version>
+    <Authors>TraceParts Team</Authors>
+    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <Description>StackExchange.Utils.Http.Extensions.NewtonJson is a library that extends StackExchange.Utils.Http allowing you to use NewtonSoft Json deserializer instead of JIL</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>StackExchange.Utils.Extensions.NewtonJson</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="StackExchange.Utils.Http" Version="0.3.43" />
+  </ItemGroup>
+
+</Project>
