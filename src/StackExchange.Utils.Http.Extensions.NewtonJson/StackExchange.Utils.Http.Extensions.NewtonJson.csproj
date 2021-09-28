@@ -1,12 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.2-alpha</Version>
+    <Version>0.0.2</Version>
     <Authors>TraceParts Team</Authors>
-    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <Company>TraceParts</Company>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/TraceParts/StackExchange.Utils.Http.Extensions.NewtonJson/blob/main/LICENSE</PackageLicenseUrl>
     <Description>StackExchange.Utils.Http.Extensions.NewtonJson is a library that extends StackExchange.Utils.Http allowing you to use NewtonSoft Json deserializer instead of JIL</Description>
+    <PackageReleaseNotes>We are currently using our own Unofficial.StackExchange.Utils.Http 3.4xx package, we are waiting an official from StackExchange (https://github.com/StackExchange/StackExchange.Utils/issues/22)</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/TraceParts/StackExchange.Utils.Http.Extensions.NewtonJson</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TraceParts/StackExchange.Utils.Http.Extensions.NewtonJson.git</RepositoryUrl>
+    <PackageTags>http;json.net</PackageTags>
+    <RepositoryType>git</RepositoryType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
@@ -15,7 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="StackExchange.Utils.Http" Version="0.3.43" />
+    <PackageReference Include="Unofficial.StackExchange.Utils.Http" Version="0.3.41" />
   </ItemGroup>
 
 </Project>

@@ -9,7 +9,9 @@ using Newtonsoft.Json;
 // ReSharper disable once CheckNamespace
 namespace StackExchange.Utils.Extensions.NewtonJson
 {
+#pragma warning disable 1591
     public static class ExtensionsExpectNewtonJson
+#pragma warning restore 1591
     {
         /// <summary>
         /// <para>Holds handlers for ExpectJson(T) calls, so we don't re-create them in the common "default Options" case.</para>
@@ -32,8 +34,8 @@ namespace StackExchange.Utils.Extensions.NewtonJson
                             {
                                 return default;
                             }
-                            // if serializerSettings is null, JsonSerializer will use default settings else
-                            // will use default settings from DefaultSettings as well as the specified JsonSerializerSettings
+                            // if serializerSettings is null, JsonSerializer will use default settings
+                            // from DefaultSettings
                             var serializer = JsonSerializer.CreateDefault(serializerSettings);
 
                             return serializer.Deserialize<T>(jsonReader);
