@@ -24,10 +24,6 @@ var result = await Http.Request("https://example.com")
                        .ExpectNewtonJson<MyType>()
                        .GetAsync();
 ```
-  
-> **Note** :  We are using our own **Unofficial.StackExchange.Utils.Http 3.4xx** package, we are waiting an official one from StackExchange (https://github.com/StackExchange/StackExchange.Utils/issues/22).
-
-  
 
 ###### Todo
 
