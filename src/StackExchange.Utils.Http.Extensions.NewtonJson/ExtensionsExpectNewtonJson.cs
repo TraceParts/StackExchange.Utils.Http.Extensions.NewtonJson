@@ -48,7 +48,7 @@ namespace StackExchange.Utils.Extensions.NewtonJson
         /// <summary>
         /// Sets the response handler for this request to a JSON deserializer.
         /// </summary>
-        /// <typeparam name="T">The type to Jil-deserialize to.</typeparam>
+        /// <typeparam name="T">The type to deserialize to.</typeparam>
         /// <param name="builder">The builder we're working on.</param>
         /// <param name="serializerSettings">The Jil options to use when serializing.</param>
         /// <returns>A typed request builder for chaining.</returns>

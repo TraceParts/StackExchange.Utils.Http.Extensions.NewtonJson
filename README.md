@@ -10,6 +10,7 @@ This package allows to use [NewtonSoft Json.NET](https://www.newtonsoft.com/json
 
 ```c#
 var result = await Http.Request("https://example.com")  
+                       .SendNewtonJson(new { name = "my thing" })
                        .ExpectNewtonJson<MyType>(MyJsonSerializerSettings)
                        .GetAsync()
 ```
@@ -21,10 +22,7 @@ Of course, you can use all other features from StackExchange, like this:
 var result = await Http.Request("https://example.com")
                        .IgnoredResponseStatuses(HttpStatusCode.NotFound)
                        .WithTimeout(TimeSpan.FromSeconds(20))
+                       .SendNewtonJson(new { name = "my thing" })
                        .ExpectNewtonJson<MyType>()
                        .GetAsync();
 ```
-
-###### Todo
-
-Implement SendNewtonJson
