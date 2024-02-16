@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.4</Version>
+    <Version>0.0.5</Version>
     <Authors>TraceParts Team</Authors>
     <Company>TraceParts</Company>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="StackExchange.Utils.Http" Version="0.3.41" />
+    <PackageReference Include="StackExchange.Utils.Http" Version="0.3.48" />
   </ItemGroup>
 
 </Project>
